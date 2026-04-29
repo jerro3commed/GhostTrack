@@ -28,6 +28,8 @@ python3 GhostTR.py
 
 > **Personal note:** If `pip3 install -r requirements.txt` fails, try running `pip3 install phonenumbers requests` manually — those are the two main dependencies I found are needed.
 
+> **Tested on:** Ubuntu 22.04 and Termux (Android 12). Python 3.10+ recommended — ran into issues with Python 3.8 and the `phonenumbers` library returning unexpected results for some country codes.
+
 Display on the menu ```IP Tracker```
 
 <img src="https://github.com/HunxByts/GhostTrack/blob/main/asset/ip.png " />
