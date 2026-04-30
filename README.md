@@ -30,6 +30,14 @@ python3 GhostTR.py
 
 > **Tested on:** Ubuntu 22.04 and Termux (Android 12). Python 3.10+ recommended — ran into issues with Python 3.8 and the `phonenumbers` library returning unexpected results for some country codes.
 
+> **Virtualenv tip:** I recommend running this inside a virtual environment to avoid dependency conflicts with other Python projects:
+> ```
+> python3 -m venv venv
+> source venv/bin/activate
+> pip3 install -r requirements.txt
+> python3 GhostTR.py
+> ```
+
 Display on the menu ```IP Tracker```
 
 <img src="https://github.com/HunxByts/GhostTrack/blob/main/asset/ip.png " />
